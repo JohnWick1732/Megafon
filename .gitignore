@@ -1,0 +1,24 @@
+# Секреты и ключи (Т5)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Локальные настройки сред
+.claude/settings.local.json
+
+# Временные файлы
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Рабочие кейсы и локальные записи
+/projects/*
+!/projects/family-connectivity-demo/
+/projects/family-connectivity-demo/.lock
+/projects/family-connectivity-demo/drafts/
